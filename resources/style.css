@@ -1,0 +1,122 @@
+html {
+  font-size: 16px;
+}
+
+.container{
+  display: flex;
+}
+
+/*Header begins here*/
+
+
+.business-name{
+  align-items: center;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 24px;
+}
+
+.business-title{
+  text-align: left;
+  display: inline-flex;
+  align-items: center;
+  margin-left: 24px;
+}
+
+.business-title img{
+  height: 50px;
+}
+
+.colmar{
+  color: #C;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.academy{
+  color: #373737;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.menu span{
+  margin: 16px;
+  color: #373737;
+}
+
+.menu span:hover{
+  color: red;
+}
+.menu{
+  display: inline-flex;
+}
+
+.business-name-mobile{
+  display: none;
+}
+
+@media only screen and (max-width: 1024px ){
+.business-name-mobile{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 64px;
+}
+.business-name{
+  display: none;
+}
+}*/
+/*MEDIA QUERY FOR MOBILE*/
+@media only screen and (max-width: 1024px ){
+.business-name-mobile{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 64px;
+}
+.business-name{
+  display: none;
+}
+}
+
+/*body*/
+.containerbody {
+  background-color: #d0cfcf;
+  display: flex;
+  padding-right: 40px;
+}
+.bannerimg {
+  height:50%;
+  width:60%;
+  margin: 32px 24px;
+}
+
+.learn {
+display: flex;
+flex-flow: wrap column;
+justify-content: center;
+margin-left: 40px;
+}
+
+.learn h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.learn h2 {
+margin-top: 40px;
+font-size: 1.5rem;
+font-weight: bold;
+width: 380px;
+}
+
+button {
+  background-color: #222222;
+  color:white;
+  font-size: 1rem;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 40px;
+  width:360px;
+}
